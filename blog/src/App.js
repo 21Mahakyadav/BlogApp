@@ -11,7 +11,7 @@ import  Write  from "./pages/write/Write";
 import { BrowserRouter as Router,Route,Link, Routes } from "react-router-dom";
 import { useContext } from "react";
 import { Context } from "./context/Context";
-
+//routes
 function App() {
   const {user}=useContext(Context);
   return (
