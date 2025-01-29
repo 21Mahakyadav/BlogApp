@@ -8,7 +8,7 @@ const cors = require('cors');
 app.use(cors());
 
 const mongoose = require("mongoose");
-//const formidable = require("formidable");
+
 const multer=require("multer");
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/users");
